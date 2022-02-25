@@ -1,0 +1,87 @@
+html{
+  font-size:62.5%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body{
+  margin:0;
+}
+
+.container{
+  width:280px;
+  margin:0 auto;
+  padding-top:10px;
+}
+
+.display{
+  width:100%;
+  height:30px;
+  padding:0px 10px;
+  background-color:lightgray;
+  box-sizing:border-box;
+  margin-bottom:20px;
+  text-align:right;
+  line-height:3rem;
+  font-size:2rem;
+  font-weight:bold;
+  overflow:hidden;
+}
+
+.row-4{
+  display:grid;
+  grid-template-columns: 70px 70px 70px 70px ;
+}
+
+.row-2{
+  display:grid;
+  grid-template-columns: 140px 140px ;
+}
+
+.btn{
+  height:30px;
+  border:1px solid gray;
+  border-radius:2px;
+  font-family : inherit;
+  font-size   : 1.5rem;
+}
+
+.btn:hover{
+  cursor:pointer;
+  opacity:0.8;
+}
+
+.operand{
+  background-color:#646B75;
+  color:#fff;
+}
+
+.modifier{
+  background-color:#ED837C;
+}
+
+@media screen and ( min-width:600px )
+{
+  .container{
+    width:400px;
+  }
+
+  .row-4{
+    grid-template-columns: 100px 100px 100px 100px ;
+  }
+
+  .row-2{
+    grid-template-columns: 200px 200px ;
+  }
+
+  .btn{
+    height:50px;
+    font-size:2rem;
+  }
+
+  .display{
+    height:50px;
+    line-height:5rem;
+    font-size:3rem;
+    margin-bottom:25px;
+  }
+}
