@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/react-typescript-calculator/static/css/main.cae4a2c1.css",
+    "main.js": "/react-typescript-calculator/static/js/main.4e3715ba.js",
+    "index.html": "/react-typescript-calculator/index.html",
+    "main.cae4a2c1.css.map": "/react-typescript-calculator/static/css/main.cae4a2c1.css.map",
+    "main.4e3715ba.js.map": "/react-typescript-calculator/static/js/main.4e3715ba.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cae4a2c1.css",
+    "static/js/main.4e3715ba.js"
+  ]
+}
